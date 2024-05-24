@@ -31,7 +31,7 @@ function rainLove() {
         setTimeout(() => {
             const randomIndex = Math.floor(Math.random() * loveImages.length);
             const imageUrl = loveImages[randomIndex];
-            createFallingElement(`<img src="${imageUrl}" alt="<3>" style="width: 3em; height: 3em;">`, 'falling-element');
+            createFallingElement(`<img src="${imageUrl}" alt="<3>" style="width: 5em; height: 5em;">`, 'falling-element');
         }, i * 100);
     }
 }
@@ -46,7 +46,7 @@ function rainLOL() {
         setTimeout(() => {
             const randomIndex = Math.floor(Math.random() * lolImages.length);
             const imageUrl = lolImages[randomIndex];
-            createFallingElement(`<img src="${imageUrl}" alt="lol" style="width: 3em; height: 3em;">`, 'falling-element');
+            createFallingElement(`<img src="${imageUrl}" alt="lol" style="width: 5em; height: 5em;">`, 'falling-element');
         }, i * 100);
     }
 }
